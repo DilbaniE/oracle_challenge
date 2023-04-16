@@ -8,21 +8,28 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>mmmmmm</h1>
-    <textarea 
+<div class="contenedor">
+    <div class="cont_izquierdo">
+        <textarea 
         id="pregunta"   
         class="text_tarea"
         name="textarea" 
         rows="10" 
         cols="50"
         placeholder="Ingrese el texto aquí"></textarea>
-    
-    <button class="bottonIncriptado" >Incriptar</button>
-    <button class="botonDesencriptar">Desencriptar</button>
-
-    <div class="border1">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum tempore obcaecati nisi. Iusto, exercitationem ullam sit nemo esse at delectus libero, eveniet laborum aspernatur et dolor, inventore doloremque officia nisi.</p>
-        <button class="botoCopiar">Copiar</button>
+        <button class="botonEncriptado" id="botonEncriptador" >Incriptar</button>
+        <button class="botonDesencriptar"  id="botonDesencriptar" >Desencriptar</button>
     </div>
+    
+    <div  class="cont_derecho border1">
+        <img id="icon-muneco" src="./assets/img/bienvenido.png" alt="">
+        <h3  id="text-h3">Este mensaje fue incriptado</h3>
+        <p id="text-p">Ingresa el texto que desees encriptar o desencriptar.</p>
+        <button  id="html"class="botoCopiar">Copiar</button>
+    </div>
+</div>
+    <script src="/incriptacion.js"></script>
+    <script src="/pruebas.js"></script>
+    
 </body>
 </html>

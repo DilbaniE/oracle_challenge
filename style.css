@@ -1,4 +1,4 @@
-.bottonIncriptado {
+.botonEncriptado {
     padding: 24px;
     width: 328px;
     height: 67px;
@@ -25,4 +25,17 @@ width: 336px;
 height: 67px;
 border: 1px solid #0A3871;
 border-radius: 24px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    border: solid 6px rgb(13, 228, 199) ;
+}
+.cont_derecho{
+    border: solid 6px rgb(198, 231, 9) ;
+    width: 30%;
+}
+.cont_izquierdo{
+    border: solid 6px rgb(197, 5, 139) ;
+    width: 70%;
 }
